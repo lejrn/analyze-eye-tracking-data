@@ -11,3 +11,6 @@ docs/
 
 # virtual environment
 .venv/
+
+# poetry stuff
+poetry.lock
