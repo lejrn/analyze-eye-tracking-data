@@ -1,8 +1,16 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.cache/
+*.py[cod]
 
 # folders
 docs/
 
 # github environment
 .github/
+
+# virtual environment
+.venv/
+
+# poetry stuff
+poetry.lock
