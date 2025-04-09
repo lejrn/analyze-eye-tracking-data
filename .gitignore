@@ -15,3 +15,6 @@ data/
 
 # poetry stuff
 poetry.lock
+
+# files
+*.png
