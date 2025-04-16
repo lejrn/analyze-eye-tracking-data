@@ -6,6 +6,7 @@ __pycache__/
 # folders
 docs/
 data/
+output/
 
 # github environment
 .github/
