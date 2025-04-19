@@ -3,6 +3,9 @@ __pycache__/
 .cache/
 *.py[cod]
 
+# vscode
+.vscode/
+
 # folders
 docs/
 data/
