@@ -10,12 +10,20 @@ This project provides tools and scripts for analyzing pupillary light reflex dat
 
 The pupillary light reflex (PLR) is a physiological response where the pupil constricts or dilates in response to changes in light intensity. This reflex is controlled by the autonomic nervous system and provides valuable insights into neurological and ocular health. By analyzing PLR data, researchers can study various conditions, including brain injuries, neurological disorders, and visual impairments.
 
+- Data cleaning and preprocessing (removal of invalid frames, handling missing data)
+- Blink detection and filtering
+- Jitter removal using Savitzky-Golay filtering
+- Signal quality assessment (precision, stability score, overall quality)
+- Advanced pupil metrics calculation
+- Visualization of eye tracking data
+
 ## Documentation
 
 The following documents are available in the `docs` folder:
 
-- **[Engineering Home Assignment](docs/Engineering%20Home%20Assignment/Home%20Assignment.pdf):** Contains the detailed description of the assignment.
-- **[Landmark Definitions](docs/Engineering%20Home%20Assignment/Landmark%20Definitions.pdf):** Provides definitions and explanations of key landmarks used in the analysis.
+- **[Landmark Definitions]():** Provides definitions and explanations of key landmarks used in the analysis.
+- **[Ideas](docs/ideas.md):** Development ideas and notes about signal processing techniques.
+
 
 ## Data
 
@@ -33,7 +41,7 @@ To get started with the project:
    ```bash
    poetry install
    ```
-3. Run the analysis scripts on the provided data.
+3. Run the notebook "notebooks/backbone.ipynb"
 
 ## Contributing
 
