@@ -1,8 +1,25 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.cache/
+*.py[cod]
+
+# vscode
+.vscode/
 
 # folders
 docs/
+data/
+output/
+graveyard/
 
 # github environment
 .github/
+
+# virtual environment
+.venv/
+
+# poetry stuff
+poetry.lock
+
+# files
+*.png
